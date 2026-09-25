@@ -1,0 +1,17 @@
+{
+  "query": "My insurer rejected my hospital claim. What can I do?",
+  "domain": "insurance",
+  "results": 5,
+  "relevant_results": 5,
+  "evidence_keywords_found": [
+    "claim",
+    "rejection",
+    "repudiation",
+    "policyholder",
+    "IRDAI",
+    "Ombudsman",
+    "claim settlement"
+  ],
+  "evidence_quality": "strong",
+  "validation_passed": true
+}

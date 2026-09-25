@@ -1,0 +1,44 @@
+/* src/components/Disclaimer.css */
+.disclaimer {
+  display: flex;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--color-warn-bg);
+  border: 1px solid var(--color-warn-bd);
+  border-radius: var(--radius-md);
+  margin-top: 20px;
+}
+
+.disclaimer--compact {
+  padding: 10px 14px;
+  margin-top: 0;
+}
+
+.disclaimer__icon {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  flex-shrink: 0;
+  color: var(--color-accent);
+}
+
+.disclaimer__body { flex: 1; }
+
+.disclaimer__main {
+  font-size: .85rem;
+  color: var(--color-warn);
+  line-height: 1.55;
+}
+
+.disclaimer--compact .disclaimer__main { font-size: .8rem; }
+
+.disclaimer__limitations {
+  margin-top: 8px;
+  padding-left: 16px;
+  list-style: disc;
+}
+
+.disclaimer__limitations li {
+  font-size: .82rem;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}

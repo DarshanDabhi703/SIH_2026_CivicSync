@@ -1,0 +1,64 @@
+/* src/components/Header.css */
+.header {
+  background: var(--color-primary);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,.18);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  gap: 24px;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -.01em;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.header__logo-mark {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header__link {
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-size: .9rem;
+  font-weight: 500;
+  color: rgba(255,255,255,.8);
+  transition: color var(--transition), background var(--transition);
+}
+
+.header__link:hover,
+.header__link:focus-visible {
+  color: #fff;
+  background: rgba(255,255,255,.12);
+}
+
+.header__link--active {
+  color: #fff;
+  background: rgba(255,255,255,.15);
+}
+
+@media (max-width: 480px) {
+  .header__name { display: none; }
+  .header__link { padding: 6px 10px; font-size: .82rem; }
+}

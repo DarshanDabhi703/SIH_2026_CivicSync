@@ -1,0 +1,16 @@
+{
+  "query": "My insurer rejected my hospital claim. What can I do?",
+  "domain": "insurance",
+  "issue": "claim rejection",
+  "intent": "understand_consequences",
+  "qualification_status": "supported",
+  "retrieval_results": 5,
+  "validated_evidence_items": 38,
+  "validated_actions": 17,
+  "invalid_claims_removed": 0,
+  "unsupported_rag_claims": 0,
+  "grounding_passed": true,
+  "limitation_disclaimer": true,
+  "source_traceability": true,
+  "validation_passed": true
+}

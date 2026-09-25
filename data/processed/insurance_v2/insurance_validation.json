@@ -1,0 +1,9 @@
+{
+  "input_files": 16,
+  "input_chunks": 647,
+  "output_chunks": 647,
+  "duplicates_removed": 0,
+  "empty_records_removed": 0,
+  "source_documents": 16,
+  "validation_passed": true
+}

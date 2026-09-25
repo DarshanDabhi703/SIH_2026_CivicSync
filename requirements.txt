@@ -1,0 +1,21 @@
+# CivicSync — Full Dependency List
+# Updated: Phase 6A (FastAPI API Layer)
+
+# PDF parsing
+pypdf>=4.0.0
+
+# Testing
+pytest>=7.0.0
+
+# FastAPI + ASGI server
+fastapi[standard]>=0.100.0
+uvicorn[standard]>=0.12.0
+
+# Embeddings
+sentence-transformers>=2.0.0
+
+# Supabase vector DB
+supabase>=2.0.0
+
+# Environment
+python-dotenv>=1.0.0
