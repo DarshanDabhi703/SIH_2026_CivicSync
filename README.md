@@ -12,18 +12,7 @@ CivicSync is an evidence-grounded, multilingual legal awareness assistant design
 🎙️ Voice Input & Output for accessible interaction
 🤖 Multiple LLM Providers — Gemini, Groq & Ollama
 📚 Source-Based Responses for better transparency
-🏗️ How It Works
-Citizen Query
-      ↓
-Situation Understanding
-      ↓
-Evidence Retrieval
-      ↓
-Evidence Qualification
-      ↓
-Action & Guidance
-      ↓
-AI Explanation
+
 💡 Core Principle
 
 AI explains the evidence. The evidence pipeline controls the explanation.
